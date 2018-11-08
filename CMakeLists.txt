@@ -1,5 +1,5 @@
 project (lua)
-cmake_minimum_required(VERSION 3.12)
+cmake_minimum_required(VERSION 3.1)
 
 include_directories(src ${CMAKE_CURRENT_BINARY_DIR})
 set(SRC_CORE lapi.c 
